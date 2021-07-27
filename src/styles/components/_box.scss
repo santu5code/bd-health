@@ -1,0 +1,62 @@
+.small-box{
+    border: 1px solid  #3EB2F1;
+    background-color: rgba(245, 253, 255, 0.61);
+    position: absolute;
+    top: 200px;
+    right: 400px;
+   padding:5px;
+    margin-right:20px;
+    border-radius: 8px;
+    h5{
+        font-size: 20px;
+        
+    }
+    p{
+        line-height: 100%;
+        color:#737070;
+    }
+}
+.graph-box{
+    
+    position: absolute;
+    bottom: 28px;
+    right: 50%;
+    margin-right:10px; 
+}
+
+.percent-box{
+   
+    position: absolute;
+    bottom: 28px;
+    right: 511px;
+    z-index: 1;
+    
+}
+@media screen and(max-width: 1200px){
+    .graphs{
+        border: 1px solid  #3EB2F1;
+        background-color: rgba(245, 253, 255, 0.61);
+        padding: 8px;
+        margin-top: 10px;
+        border-radius: 8px;
+    .small-box{
+        position: inherit;
+        margin-top: 5px;
+        
+   
+    h5,p{
+        font-size: 70%;
+    }
+   }
+   .graph-box{
+       position: inherit;
+       margin-top:5px
+   }
+   .percent-box{
+    position: inherit;
+    margin-top:5px
+   }
+}
+}
+
+

@@ -1,0 +1,29 @@
+.vector-box{
+    border: 1px solid  #3EB2F1;
+    background-color: rgba(245, 253, 255, 0.61);
+    position: absolute;
+    top: 370px;
+    right: 520px;
+    border-radius: 8px;
+    
+    padding:2px;
+    h2{
+        font-size: 25px;
+    }
+    p{
+        
+        color:#737070;
+    }
+}
+@media screen and(max-width: 1200px){
+    .vector-box{
+        position: inherit;
+        margin: 5px 0px 0px 0px;
+       
+   
+    h2,p{
+        font-size: 70%;
+    }
+   }
+    
+}
